@@ -1,0 +1,459 @@
+<html class="gr__kronaflyff_com">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="min-width=1240, initial-scale=1">
+  <title>KronaFlyFF</title>
+  <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico?" type="image/x-icon">
+  <link rel="stylesheet" href="/Content/vendor/Gallery-2.17.0/css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="/Content/bootstrap.min.css">
+  <link rel="stylesheet" href="/Content/bootstrap.non-responsive.css">
+  <link rel="stylesheet" href="/Content/base.css">
+  <link rel="stylesheet" href="/Content/base.buttons.css">
+  <link rel="stylesheet" href="/Content/base.fonts.css">
+  <link rel="stylesheet" href="/Content/base.forms.css">
+  <link rel="stylesheet" href="/Content/base.pagination.css">
+  <link rel="stylesheet" href="/Content/header.menu.css">
+  <link rel="stylesheet" href="/Content/main.css">
+  <link rel="stylesheet" href="/Content/main.call-to-action.css">
+  <link rel="stylesheet" href="/Content/main.signin.css">
+  <link rel="stylesheet" href="/Content/main.news.css">
+  <link rel="stylesheet" href="/Content/main.media.css">
+  <link rel="stylesheet" href="/Content/main.gallery.css">
+  <link rel="stylesheet" href="/Content/main.downloads.css">
+  <link rel="stylesheet" href="/Content/main.donate.css">
+  <link rel="stylesheet" href="/Content/main.vote.css">
+  <link rel="stylesheet" href="/Content/main.votemall.css">
+  <link rel="stylesheet" href="/Content/sidebar.search.css">
+  <link rel="stylesheet" href="/Content/sidebar.social.css">
+  <link rel="stylesheet" href="/Content/sidebar.quickstart.css">
+  <link rel="stylesheet" href="/Content/sidebar.server-status.css">
+  <link rel="stylesheet" href="/Content/sidebar.spotlight.css">
+  <link rel="stylesheet" href="/Content/footer.css">
+
+  <link rel="stylesheet" href="/Content/page.download.css">
+</head>
+
+<body data-gr-c-s-loaded="true">
+  <header class="headerMenuContainer">
+    <nav class="navbar navbar-default">
+      <div class="headerMenu">
+        <div class="navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li>
+              <a href="/Home/News">News <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media</a>
+              <ul class="dropdown-menu" style="left: 64px;">
+                <li><a href="/Home/Screenshots">Screenshots</a></li>
+                <li><a href="/Home/Videos">Videos</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/Home/Features">Features</a>
+            </li>
+            <li>
+              <a href="/Home"></a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="http://forum.KronaFlyFF.com/">Forum</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Store</a>
+              <ul class="dropdown-menu" style="left: 67px;">
+                <li><a href="/User/ItemMall">Cash Store</a></li>
+                <li><a href="/User/VoteMall">Vote Store</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support</a>
+              <ul class="dropdown-menu" style="left: 74px;">
+                <li><a href="/Home/HowTo">How-to</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="/Home/Terms">Terms of Service</a></li>
+                <li><a href="/Home/Rules">Rules</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="mainCallToAction mainCallToAction--loginRegister">
+    <div class="row mainCallToAction__callToActionContainer">
+      <a href="#" class="col-xs-6 callToAction__btn callToAction__signIn" data-toggle="modal" data-target="#modal-signIn">
+        <div class="hidden">
+          <h3>Sign In</h3>
+          <p>Manage your Account</p>
+        </div>
+      </a>
+      <a href="/Home/Register" class="col-xs-6 callToAction__btn callToAction__signUp">
+        <div class="hidden">
+          <p>Join out us Today</p>
+          <h3>Register</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-signIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form action="/User/LogIn?c=Home&amp;a=Rules" method="post"><input name="__RequestVerificationToken" type="hidden" value="QTLaBHmyq8Gd-yHrgz229EYatTEH4571jrBO8LpOKec5-S-9Gqxk97cUj1ItO2f-5YZKR9J284lHDADRwiBaMIyJYstww0k0n1djF2MxCP01">
+            <div class="form-group">
+              <label for="account">Account</label>
+              <input class="form-control" data-val="true" data-val-length="The field Account must be a string with a minimum length of 4 and a maximum length of 16." data-val-length-max="16" data-val-length-min="4" data-val-regex="Your username can only contain letters and numbers."
+                  data-val-regex-pattern="^[A-Za-z0-9]+$" data-val-required="The Account field is required." id="account" name="account" type="text" value="" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input class="form-control" data-val="true" data-val-length="The field Password must be a string with a minimum length of 4 and a maximum length of 16." data-val-length-max="16" data-val-length-min="4" data-val-regex="Your password can only contain letters and numbers."
+                  data-val-regex-pattern="^[A-Za-z0-9]+$" data-val-required="The Password field is required." id="password" name="password" type="password" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-xs-5">
+                  <button type="submit" class="btn btn-default">Log In</button>
+                </div>
+                <div class="col-xs-7">
+                  <div class="checkbox">
+                    <input id="remember" name="remember" type="checkbox">
+                    <label for="remember">Remember me</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="/User/RequestPassword">Forgot your password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mainContainer">
+    <div class="container">
+
+
+      <style>
+        .well.rules li {
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+
+        .well.rules ul {
+          margin-top: 15px;
+          margin-bottom: 15px;
+        }
+
+        .well.rules ul li a {
+          color: #B22222;
+        }
+
+        .well.rules p {
+          color: #d0c4b1;
+        }
+
+        .well.rules span {
+          color: #d0c4b1;
+        }
+      </style>
+
+
+      <div class="row">
+        <div class="col-xs-12 main__content main__content--wide">
+          <div class="main__pageTitleContainer main__pageTitleContainer--wide">
+            <div class="row">
+              <div class="col-xs-9 pageTitle__title">Player Code of Conduct</div>
+              <div class="col-xs-3 text-right pageTitle__btnContainer">
+                <div class="btn pageTitle__btn" onclick="javascript: history.back();">
+                  <i class="pageTitle__btnArrow"></i> Back
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main__pageBodyContainer">
+            <div class="well rules">
+              <p>Salutations players and members,<br>&nbsp;<br>First and foremost, welcome to the Krona&nbsp;discussion boards! We're providing these boards as a way for you, as the players of Krona, to communicate with each other as well as the team during
+                your stay on our services. It's a way for you to give friendly advice, gameplay tips and tricks, friendly battle/dungeon advice, and general overall communication with each other. These services are a&nbsp;privilege&nbsp;and not a guarantee,
+                so please do not treat them in any sort of an abusive manner or with any ill or malicious intent. We ask you to hold yourself in a gracious manner while using these forums, and conduct yourselves with a civilized and non-disruptive manner,
+                and that is truly all we ask.<br>&nbsp;<br>The guidelines and rules listed below are specifically explain what behavior is explicitly asked of you here, and also what you can expect from the members around you. They may not address all
+                offensive behaviors, and as such, we expect you to understand that human's should have their own personal code of conduct that they hold themselves to, and hope you have a good moral compass. Also, suspension or banishment from the game
+                will not always result in the same punishment on the forums, although in some severe cases, it will. Krona reserves the right to&nbsp;suspend your account at virtually any time, with or without reason; regardless of the time you've spent
+                with us or the contribution you've put towards our future.<br>&nbsp;<br>Please note that we reserve the right to evaluate each incident on a case to case basis and the action we take may be more lenient or more severe depending on our
+                personal judgement over the case. As a final note, everyone is expected to have a good time and enjoy every service we provide, the discussion boards are not an exception to this case!<br>&nbsp;<br>Table of Contents</p>
+              <ul>
+                <li><a href="#Racial">Racial / Ethnic</a></li>
+                <li><a href="#Trading">Account Trading</a></li>
+                <li><a href="#Sexuality">Extreme Sexuality / Violence</a></li>
+                <li><a href="#Threats">Real-Life or Virtual Threats</a></li>
+                <li><a href="#Cheats">Posting Cheats, Hacks, or Viruses</a></li>
+                <li><a href="#Impersonation">Impersonating an Krona&nbsp;Employee</a></li>
+                <li><a href="#Antagonizing">Antagonizing a Krona Employee</a></li>
+                <li><a href="#Obscene">Obscene / Vulgar Language</a></li>
+                <li><a href="#Inappropriate">Inappropriate Behavior</a></li>
+                <li><a href="#Harassment">Major Harassment / Defamation</a></li>
+                <li><a href="#Religion">Religious Talk / Views</a></li>
+                <li><a href="#Drugs">Mentioning Illegal Drugs / Behaviors</a></li>
+                <li><a href="#Trolling">Spamming or Trolling</a></li>
+                <li><a href="#Scamming">Scamming / Real World Bartering</a></li>
+                <li><a href="#Multiposting">Necro Posting or Multi Posting Repeatedly</a></li>
+                <li><a href="#Advertising">Advertisement of External Services</a></li>
+                <li><a href="#Disciplinary">Discussing Disciplinary Actions</a></li>
+                <li><a href="#Evasion">Evading a Suspension / Punishment</a></li>
+              </ul>
+              <p><br></p>
+              <p></p>
+              <hr>
+              <p></p>
+              <p><br></p>
+              <p id="Racial">&gt; Racial / Ethic</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section&nbsp;covers all usage of language, posting of links, or implying any of the following images or language which:</p>
+              <ul style="margin-left: 40px;">
+                <li>Imply racial superiority in any fashion.&nbsp;</li>
+                <li>Defame any race on planet Earth in any fashion.</li>
+                <li>Allude to any sort of symbol or icon of racial hatred/maliciousness.</li>
+              </ul>
+              <p><br></p>
+              <p id="Trading">&gt; Account Trading</p>
+              <p style="margin-left: 40px;"><br></p>
+              <p style="margin-left: 40px;">This section covers both advertising that your character on Krona or account on Krona is for sale, or looking for any sort of a trade between two accounts, or purchase through:</p>
+              <ul style="margin-left: 40px;">
+                <li>Forum replies or private messages.</li>
+                <li>Linking to a sale on any external site (such as eBay, Amazon or Best Buy).</li>
+                <li>Suggesting a trade via real life currency such as Paypal or Dwolla.</li>
+              </ul>
+              <p><br></p>
+              <p id="Sexuality">&gt; Extreme Sexuality / Violence</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section covers any language, posting of sites, or harassment that falls under the following categories, this is not up to discussion:</p>
+              <ul style="margin-left: 40px;">
+                <li>Sexuality.</li>
+                <li>Intent to do any sort of molestation.&nbsp;</li>
+                <li>Refer to real life intentions, or have any link to pornography.</li>
+              </ul>
+              <p><br></p>
+              <p id="Threats">&gt; Real-Life or Virtual Threats</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section covers any language, posting of sites, or harassment that falls under the following categories:</p>
+              <ul style="margin-left: 40px;">
+                <li>Intent to murder.</li>
+                <li>Intent to hurt another's family, friends or associates.</li>
+                <li>Intention to do bodily harm in any fashion.</li>
+              </ul>
+              <p><br></p>
+              <p id="Cheats">&gt; Posting Cheats, Hacks or Viruses</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section includes:</p>
+              <ul style="margin-left: 40px;">
+                <li>Posting of links or discuss possible cheats, bots, automations, or malicious viruses / programs.&nbsp;</li>
+                <li>If someone links you a possible cheat, automation, or other such item listed above, you need to post it on the Bug Reports section where it will not be visible to the public eye at all.</li>
+              </ul>
+              <p><br></p>
+              <p id="Impersonation">&gt; Impersonating an Krona&nbsp;Employee</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section involves any of the following behaviors, whether it be in-game or on the discussion boards, or any form of communication:</p>
+              <ul style="margin-left: 40px;">
+                <li>Claiming you're a part of the team when you're not.</li>
+                <li>Attempting to use connections to the team to further one's own agenda.</li>
+              </ul>
+              <p><br></p>
+              <p id="Impersonation">&gt; Antagonizing an Krona&nbsp;Employee</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section covers any kind of antagonizing attack or implication against the employees currently tasked with managing the community, development and/or resource-management of Krona resources, community or server-tasks. Players are restricted
+                from:
+              </p>
+              <ul style="margin-left: 40px;">
+                <li>Using any sort of antagonizing tone towards employees (up to employee discretion).</li>
+                <li>Causing any sort of drama or dramatic display of public speech (up to employee discretion).</li>
+                <li>Disrespecting or being noncompliant towards an employee’s request.</li>
+              </ul>
+              <p><br></p>
+              <p id="Obscene">&gt; Obscene / Vulgar Language<br><br></p>
+              <p style="margin-left: 40px;">This section covers virtually any vulgar / obscene remarks played in part on any of the following platforms:</p>
+              <ul style="margin-left: 40px;">
+                <li>In-game on Krona.</li>
+                <li>On the Krona discussion boards.</li>
+                <li>Involving any Krona service whatsoever.</li>
+              </ul>
+              <p><br></p>
+              <p id="Inappropriate">&gt; Inappropriate Behavior</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section involves any of the following things (as well as many more, which we can ban/mute as needed) and hopefully won't be done:</p>
+              <ul style="margin-left: 40px;">
+                <li>Defaming Krona in any fashion.</li>
+                <li>Abusing relationships with moderators/administrators in any fashion (tooling).</li>
+                <li>Posting unrealistic remarks or defamatory remarks about the Krona team.</li>
+              </ul>
+              <p><br></p>
+              <p id="Harassment">&gt; Major Harassment / Defamation</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section covers any of the following actions, whether it be in-game or on the discussion boards:</p>
+              <ul style="margin-left: 40px;">
+                <li>Stalking or following from post to post or area to area.</li>
+                <li>Asking repeatedly for real life information.</li>
+                <li>Requesting the same thing from a team member again, and again, and again.</li>
+              </ul>
+              <p><br></p>
+              <p id="Religion">&gt; Religious Talk / Views<br><br></p>
+              <p style="margin-left: 40px;">This section covers any and all talk that can be considered religious or sharing your religious views in a way that could be deemed forceful in any of the following places:</p>
+              <ul style="margin-left: 40px;">
+                <li>Krona&nbsp;services of any kind.</li>
+                <li>Private messages on any Krona services.</li>
+              </ul>
+              <p><br></p>
+              <p id="Drugs">&gt; Mentioning Illegal Drugs / Activities[<br><br></p>
+              <p style="margin-left: 40px;">This section covers any language, posting of sites, or showing images / materials of any of the following things on any Krona service:</p>
+              <ul style="margin-left: 40px;">
+                <li>Illegal drugs or the usage of such.</li>
+                <li>Activities that can be deemed unlawful, illegal or such things.</li>
+                <li>Suggesting any Krona member partake in any sort of illegal activity, virtual or real life.</li>
+              </ul>
+              <p><br></p>
+              <p id="Trolling">&gt; Spamming or Trolling<br><br></p>
+              <p style="margin-left: 40px;">This section covers any sort of the posting of images, language, or any other sort of reply that can be deemed:</p>
+              <ul style="margin-left: 40px;">
+                <li>Random or unneeded.</li>
+                <li>Malicious or unnecessary to progress the conversation.</li>
+                <li>Creating threads for the sole purpose of causing a disturbance or unrest on the discussion boards.</li>
+              </ul>
+              <p><br></p>
+              <p id="Scamming">&gt; Scamming / Real World Bartering</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section involves any sort of the behaviors that can be considered:</p>
+              <ul style="margin-left: 40px;">
+                <li>Trading real world currency for anything on Krona's services.</li>
+                <li>Using money to buy Crowns from anywhere but Krona's donation system.</li>
+                <li>Offering/suggesting/requesting real money in any sort of trade on Krona's services.</li>
+                <li>Please note that all decisions are made by you, if you choose to lend someone money, that is your decision and will not be supported by us. If you choose to do a deal in advance and wait until someone has the funds/Crowns to pay you, that
+                  is not handled by us. We will not support any decisions made in this reference.</li>
+              </ul>
+              <p><br></p>
+              <p id="Multiposting">&gt; Necro Posting or Multi Posting Repeatedly</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section will be covering only the two following items:</p>
+              <ul style="margin-left: 40px;">
+                <li>Posting on threads that have not seen a reply in the last&nbsp;three&nbsp;weeks.</li>
+                <li>Posting multiple times instead of editing your original post, and if it's useful information, this is alright just try not to do it so much.</li>
+              </ul>
+              <p><br></p>
+              <p id="Advertising">&gt; Advertisement of External Services</p>
+              <p style="margin-left: 40px;"><br></p>
+              <p style="margin-left: 40px;">This section will cover anything that we deem to be the following or such things:</p>
+              <ul style="margin-left: 40px;">
+                <li>Posting outside links to competitive sites or such.</li>
+                <li>Suggesting players leave Krona to "try" or "experiment" any competitive site.</li>
+                <li>Advertising direct server names in any posts or various other type of threads or such things.</li>
+              </ul>
+              <p><br></p>
+              <p id="Disciplinary">&gt; Discussing Disciplinary Actions</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section will involve any of the following behaviors:</p>
+              <ul style="margin-left: 40px;">
+                <li>Discussing your punishments / banishments in any manner.</li>
+                <li>Explaining to other players what happened to you when you did something against the rules.</li>
+                <li>Any copy or pasting of any notes we leave you when we decide to punish your team.</li>
+              </ul>
+              <p><br></p>
+              <p id="Evasion">&gt; Evading a Suspension / Punishment</p>
+              <p><br></p>
+              <p style="margin-left: 40px;">This section will cover attempting to, succeeding in, or suggesting to another player to attempt any of the following:</p>
+              <ul style="margin-left: 40px;">
+                <li>Using a torrent or VPN to access any of Krona's sites.</li>
+                <li>Using a new name under a different IP to attempt to access Krona's sites.</li>
+                <li>Making a new account to appeal any sort of a ban/punishment.</li>
+              </ul>
+              <p><br></p>
+              <p>Bottom line, we want Krona to be an enjoyable experience for anyone and everyone who decides to come and play it. While we want to protect you, we also want to protect players from you. We understand that everyone has a bad day, feels the
+                need to curse, scream, shout, do everything in their power to make others feel as low as they do, but these rules are guidelines in an attempt to prevent these happenings from affecting your time on Krona. We do thoroughly hope you take
+                these rules to heart, as well as enjoy Krona's great services and amazing community. We do not want to seem like tyrants here, instead, like people you can come to for any issue or problem you're having regardless of the time or anything
+                of the sort. Please keep this in mind when you read over these rules.&nbsp;Lastly,&nbsp;please remember that we can determine any sort of punishment for&nbsp;ANY&nbsp;of the above items, and we do not need ANY sort of justification to
+                do so. Thank you for using Krona's services, and let's make this a great environment --- we leave the rest to you!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footerContainer">
+    <div class="container">
+      <div class="row footer__content">
+        <div class="col-xs-6">
+          <dl class="dl-horizontal">
+            <dt class="footer__DMCA">
+                            <div></div>
+                        </dt>
+            <dd class="footer__copyright">
+              <br>
+            </dd>
+          </dl>
+        </div>
+        <div class="col-xs-6">
+          <ul class="list-inline footer__quickLinks">
+            <li><a href="/Home/Index">Home</a></li>
+            <li><a href="/Home/News">News</a></li>
+            <li><a href="/Home/Videos">Media</a></li>
+            <li><a href="http://forum.KronaFlyFF.com">Forum</a></li>
+            <li><a href="http://forum.KronaFlyFF.com/index.php?/forum/18-support/">Support</a></li>
+            <li><a href="http://forum.KronaFlyFF.com/index.php?/topic/2-Kronas-tos/">Rules</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="designBy">
+    <a href="http://www.elitepvpers.com/">ELITEPVPERS</a>
+  </div>
+
+  <script src="/Scripts/jquery-2.2.0.min.js"></script>
+  <script src="/Scripts/jquery-ui.min.js"></script>
+  <script src="/Scripts/bootstrap.min.js"></script>
+  <script src="/Scripts/header.menu.js"></script>
+
+
+
+
+  <script aria-hidden="true" type="application/x-lastpass" id="hiddenlpsubmitdiv" style="display: none;"></script>
+  <script>
+    try {
+      (function() {
+        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
+          var lastpass_f = document.forms[lastpass_iter];
+          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
+            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
+            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
+              continue;
+            }
+            lastpass_f.submit = function() {
+              var form = this;
+              var customEvent = document.createEvent("Event");
+              customEvent.initEvent("lpCustomEvent", true, true);
+              var d = document.getElementById("hiddenlpsubmitdiv");
+              if (d) {
+                for (var i = 0; i < document.forms.length; i++) {
+                  if (document.forms[i] == form) {
+                    if (typeof(d.innerText) != 'undefined') {
+                      d.innerText = i.toString();
+                    } else {
+                      d.textContent = i.toString();
+                    }
+                  }
+                }
+                d.dispatchEvent(customEvent);
+              }
+              form.lpsubmitorig2();
+            }
+          }
+        }
+      })()
+    } catch (e) {}
+  </script>
+</body>
+
+</html>

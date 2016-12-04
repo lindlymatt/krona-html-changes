@@ -1,0 +1,333 @@
+<html class="gr__kronaflyff_com">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="min-width=1240, initial-scale=1">
+  <title>KronaFlyFF</title>
+  <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico?" type="image/x-icon">
+  <link rel="stylesheet" href="/Content/vendor/Gallery-2.17.0/css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="/Content/bootstrap.min.css">
+  <link rel="stylesheet" href="/Content/bootstrap.non-responsive.css">
+  <link rel="stylesheet" href="/Content/base.css">
+  <link rel="stylesheet" href="/Content/base.buttons.css">
+  <link rel="stylesheet" href="/Content/base.fonts.css">
+  <link rel="stylesheet" href="/Content/base.forms.css">
+  <link rel="stylesheet" href="/Content/base.pagination.css">
+  <link rel="stylesheet" href="/Content/header.menu.css">
+  <link rel="stylesheet" href="/Content/main.css">
+  <link rel="stylesheet" href="/Content/main.call-to-action.css">
+  <link rel="stylesheet" href="/Content/main.signin.css">
+  <link rel="stylesheet" href="/Content/main.news.css">
+  <link rel="stylesheet" href="/Content/main.media.css">
+  <link rel="stylesheet" href="/Content/main.gallery.css">
+  <link rel="stylesheet" href="/Content/main.downloads.css">
+  <link rel="stylesheet" href="/Content/main.donate.css">
+  <link rel="stylesheet" href="/Content/main.vote.css">
+  <link rel="stylesheet" href="/Content/main.votemall.css">
+  <link rel="stylesheet" href="/Content/sidebar.search.css">
+  <link rel="stylesheet" href="/Content/sidebar.social.css">
+  <link rel="stylesheet" href="/Content/sidebar.quickstart.css">
+  <link rel="stylesheet" href="/Content/sidebar.server-status.css">
+  <link rel="stylesheet" href="/Content/sidebar.spotlight.css">
+  <link rel="stylesheet" href="/Content/footer.css">
+
+  <link rel="stylesheet" href="/Content/page.download.css">
+</head>
+
+<body data-gr-c-s-loaded="true">
+  <header class="headerMenuContainer">
+    <nav class="navbar navbar-default">
+      <div class="headerMenu">
+        <div class="navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li>
+              <a href="/Home/News">News <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media</a>
+              <ul class="dropdown-menu" style="left: 64px;">
+                <li><a href="/Home/Screenshots">Screenshots</a></li>
+                <li><a href="/Home/Videos">Videos</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/Home/Features">Features</a>
+            </li>
+            <li>
+              <a href="/Home"></a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="http://forum.KronaFlyFF.com/">Forum</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Store</a>
+              <ul class="dropdown-menu" style="left: 67px;">
+                <li><a href="/User/ItemMall">Cash Store</a></li>
+                <li><a href="/User/VoteMall">Vote Store</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support</a>
+              <ul class="dropdown-menu" style="left: 74px;">
+                <li><a href="/Home/HowTo">How-to</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="/Home/Terms">Terms of Service</a></li>
+                <li><a href="/Home/Rules">Rules</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="mainCallToAction mainCallToAction--loginRegister">
+    <div class="row mainCallToAction__callToActionContainer">
+      <a href="#" class="col-xs-6 callToAction__btn callToAction__signIn" data-toggle="modal" data-target="#modal-signIn">
+        <div class="hidden">
+          <h3>Sign In</h3>
+          <p>Manage your Account</p>
+        </div>
+      </a>
+      <a href="/Home/Register" class="col-xs-6 callToAction__btn callToAction__signUp">
+        <div class="hidden">
+          <p>Join out us Today</p>
+          <h3>Register</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-signIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form action="/User/LogIn?c=Home&amp;a=Terms" method="post"><input name="__RequestVerificationToken" type="hidden" value="aSxS2Nt1FgMJCdZyPpC331rcdSVGGeViQI2tcF0gOZyS2_dspSoXep3HrPWY1Bl9-BRQ6G27Xlhdw7EydwLpz_q0rnmyt2Ps5Hl995M7TBg1">
+            <div class="form-group">
+              <label for="account">Account</label>
+              <input class="form-control" data-val="true" data-val-length="The field Account must be a string with a minimum length of 4 and a maximum length of 16." data-val-length-max="16" data-val-length-min="4" data-val-regex="Your username can only contain letters and numbers."
+                  data-val-regex-pattern="^[A-Za-z0-9]+$" data-val-required="The Account field is required." id="account" name="account" type="text" value="" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input class="form-control" data-val="true" data-val-length="The field Password must be a string with a minimum length of 4 and a maximum length of 16." data-val-length-max="16" data-val-length-min="4" data-val-regex="Your password can only contain letters and numbers."
+                  data-val-regex-pattern="^[A-Za-z0-9]+$" data-val-required="The Password field is required." id="password" name="password" type="password" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-xs-5">
+                  <button type="submit" class="btn btn-default">Log In</button>
+                </div>
+                <div class="col-xs-7">
+                  <div class="checkbox">
+                    <input id="remember" name="remember" type="checkbox">
+                    <label for="remember">Remember me</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="/User/RequestPassword">Forgot your password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mainContainer">
+    <div class="container">
+
+
+      <style>
+        .main__pageBodyContainer .well p {
+          color: #d0c4b1;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+      </style>
+      <div class="row">
+        <div class="col-xs-12 main__content main__content--wide">
+          <div class="main__pageTitleContainer main__pageTitleContainer--wide">
+            <div class="row">
+              <div class="col-xs-9 pageTitle__title">Terms of Service</div>
+              <div class="col-xs-3 text-right pageTitle__btnContainer">
+                <div class="btn pageTitle__btn" onclick="javascript: history.back();">
+                  <i class="pageTitle__btnArrow"></i> Back
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main__pageBodyContainer">
+            <div class="well">
+              <p><span style="color:#B22222"><strong>TERMS OF SERVICES</strong></span></p>
+
+              <p>By&nbsp;accessing or using www.kronaflyff.com (the "Site") and affiliated services (the "Services") that belongs to Krona (Krona), you (the "User") agree to comply with the terms and conditions governing the User's use of any areas of the
+                Site and affiliated services as set forth below.</p>
+
+              <p>&nbsp;</p>
+
+              <p><span style="color:#B22222"><strong>USE OF SITE</strong></span></p>
+
+              <p>This Site or any portion of the Site as well as the Services may not be reproduced, duplicated, copied, sold, resold, or otherwise exploited for any commercial purpose except as expressly permitted by Krona. Krona reserves the right to refuse
+                service in its discretion, without limitation, if Krona believes that User conduct violates applicable law or is harmful to the interests of Krona, other users of the Site and the Services or its affiliates.</p>
+
+              <p>&nbsp;</p>
+
+              <p><span style="color:#B22222"><strong>SITE ACCOUNT</strong></span></p>
+
+              <p>You may register a regular account and password for the service for free. You are responsible for all activity under your account, associated accounts, and passwords. The Site is NOT responsible for unauthorized access to your account, and
+                any loss of virtual items associated with it.</p>
+
+              <p>&nbsp;</p>
+
+              <p><span style="color:#B22222"><strong>ACCESS TO THE SITE AND THE SERVICES</strong></span></p>
+
+              <p>Krona provides free and unlimited access to the Site and the Services.</p>
+
+              <p>&nbsp;</p>
+
+              <p><span style="color:#B22222"><strong>SUBMISSION</strong></span></p>
+
+              <p>Krona does not assume any obligation with respect to any Submission and no confidential or fiduciary understanding or relationship is established by the Site's receipt or acceptance of any submission. All submissions become the exclusive
+                property of the Site and its affiliates. The Site and its affiliates may use any submission without restriction and the User shall not be entitled to any compensation.</p>
+
+              <p>&nbsp;</p>
+
+              <p><span style="color:#B22222"><strong>VERIFICATION</strong></span></p>
+
+              <p>THE USER MAY BE REQUIRED TO UNDERGO A VERIFICATION PROCEDURE INCLUDING, AND NOT LIMITED TO, SUBMISSION OF NECESSARY INFORMATION AND/OR DOCUMENTS TO ENSURE LEGITIMACY OF ANY PAYMENTS OR DONATIONS SHOULD WE CONSIDER ANY PAYMENT OR DONATION
+                SUSPICIOUS. ACCOUNTS UNDERGOING VERIFICATION PROCEDURE REMAIN DISABLED UNTIL VERIFICATION PROCEDURE IS COMPLETE. SUBMITTED INFORMATION MAY BE DISCLOSED TO OUR AFFILIATES IN OUR MUTUAL EFFORTS TO PREVENT UNAUTHORISED PAYMENTS/DONATIONS.
+                REQUESTED INFORMATION IS TO BE SUBMITTED BY EMAIL/FAX/ONLINE FORM AND MAY INCLUDE VERIFICATION OF THE USER'S IDENTITY.</p>
+
+              <p>&nbsp;</p>
+
+              <p><span style="color:#B22222"><strong>Third-Party Content</strong></span></p>
+
+              <p>Neither Krona, nor its affiliates, nor any of their respective officers, directors, employees, or agents, nor any third party, including any Provider/Affiliate, or any other User of the Site and Services, guarantees the accuracy, completeness,
+                or usefulness of any content, nor its merchantability or fitness for any particular purpose. In some instances, the content available through the Site may represent the opinions and judgments of Providers/Affiliates or Users. Krona and
+                its affiliates do not endorse and shall not be responsible for the accuracy or reliability of any opinion, advice, or statement made on the Site and the Services by anyone other than authorized Krona employees. Under no circumstances shall
+                Krona, or its affiliates, or any of their respective officers, directors, employees, or agents be liable for any loss, damage or harm caused by a User's reliance on information obtained through the Site and the Services. It is the responsibility
+                of the User to evaluate the information, opinion, advice, or other Content available through this Site.</p>
+
+              <p>&nbsp;</p>
+
+              <p><span style="color:#B22222"><strong>Disclaimers and Limitation of Liability</strong></span></p>
+
+              <p>User agrees that use of the Site and the Services is at the User's sole risk. Neither Krona, nor its affiliates, nor any of their respective officers, directors, employees, agents, third-party content providers, merchants, sponsors, licensors
+                or the like (collectively, "Providers"), warrant that the Site and the Services will be uninterrupted or error-free; nor do they make any warranty as to the results that may be obtained from the use of the Site and the Services, or as
+                to the accuracy, reliability, or currency of any information content, service, or merchandise provided through this Site. THE SITE AND THE SERVICES ARE PROVIDED BY Krona ON AN "AS IS" AND "AS AVAILABLE" BASIS. THE SITE MAKES NO REPRESENTATIONS
+                OR WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, AS TO THE OPERATION OF THE SITE, THE INFORMATION, CONTENT, MATERIALS OR PRODUCTS, INCLUDED ON THIS SITE. TO THE FULL EXTENT PERMISSIBLE BY APPLICABLE LAW, THE SITE DISCLAIMS ALL WARRANTIES,
+                EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. Krona WILL NOT BE LIABLE FOR ANY DAMAGES OF ANY KIND ARISING FROM THE USE OF THE SITE AND THE SERVICES, INCLUDING
+                BUT NOT LIMITED TO DIRECT, INDIRECT, INCIDENTAL, PUNITIVE AND CONSEQUENTIAL DAMAGES. Under no circumstances shall Krona or any other party involved in creating, producing, or distributing the Site and the Services be liable for any direct,
+                indirect, incidental, special, or consequential damages that result from the use of or inability to use the Site and the Services, including but not limited to reliance by the User on any information obtained from the Site or that result
+                from mistakes, omissions, interruptions, deletion of files or email, errors, defects, viruses, delays in operation or transmission, or any failure of performance, whether or not resulting from acts of God, communications failure, theft,
+                destruction, or unauthorized access to the Site's records, programs, or services. The user hereby acknowledges that these disclaimers and limitation on liability shall apply to all content, merchandise, and services available through the
+                Site and the Services. In states that do not allow the exclusion of limitation or limitation of liability for consequential or incidental damages, the User agrees that liability in such states shall be limited to the fullest extent permitted
+                by applicable law.</p>
+
+              <p>&nbsp;</p>
+
+              <p><span style="color:#B22222"><strong>TERMINATION OF SERVICE</strong></span></p>
+
+              <p>Krona reserves the right, in its sole discretion, to change, suspend, limit, or discontinue any aspect of the Service and the Services at any time. Krona may suspend or terminate any User's access to all or part of the Site and the Services,
+                without notice, for any conduct that Krona, in its sole discretion, believes is in violation of these terms and conditions.</p>
+
+              <p>&nbsp;</p>
+
+              <p><span style="color:#B22222"><strong>ACKNOWLEDGEMENT</strong></span></p>
+
+              <p>By accessing or using the Site and the Services, THE USER AGREES TO BE BOUND BY THESE TERMS AND CONDITIONS, INCLUDING DISCLAIMERS. Krona reserves the right to make changes to the Site and these terms and conditions, including disclaimers,
+                at any time. IF YOU DO NOT AGREE TO THE PROVISIONS OF THIS AGREEMENT OR ARE NOT SATISFIED WITH THE SERVICE, YOUR SOLE AND EXCLUSIVE REMEDY IS TO DISCONTINUE YOUR USE OF THE SERVICE.</p>
+
+              <p>&nbsp;</p>
+
+              <p><span style="color:#B22222"><strong>PRIVACY STATEMENT</strong></span></p>
+
+              <p>Certain user information collected through the use of this website is automatically stored for reference. We track such information to perform internal research on our users' demographic interests and behavior and to better understand, protect
+                and serve our community of users. Payment or any other financial information is NEVER submitted, disclosed or stored on the Site and is bound to Terms and Conditions and Privacy Policy of our respective partners and/or payment processors.
+                Basic user information (such as IP address, logs for using website interface and account management) may be disclosed to our partners in mutual efforts to counter potential illegal activities. Krona makes significant effort to protect
+                your information at all times..</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footerContainer">
+    <div class="container">
+      <div class="row footer__content">
+        <div class="col-xs-6">
+          <dl class="dl-horizontal">
+            <dt class="footer__DMCA">
+                            <div></div>
+                        </dt>
+            <dd class="footer__copyright">
+              <br>
+            </dd>
+          </dl>
+        </div>
+        <div class="col-xs-6">
+          <ul class="list-inline footer__quickLinks">
+            <li><a href="/Home/Index">Home</a></li>
+            <li><a href="/Home/News">News</a></li>
+            <li><a href="/Home/Videos">Media</a></li>
+            <li><a href="http://forum.KronaFlyFF.com">Forum</a></li>
+            <li><a href="http://forum.KronaFlyFF.com/index.php?/forum/18-support/">Support</a></li>
+            <li><a href="http://forum.KronaFlyFF.com/index.php?/topic/2-Kronas-tos/">Rules</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="designBy">
+    <a href="http://www.elitepvpers.com/">ELITEPVPERS</a>
+  </div>
+
+  <script src="/Scripts/jquery-2.2.0.min.js"></script>
+  <script src="/Scripts/jquery-ui.min.js"></script>
+  <script src="/Scripts/bootstrap.min.js"></script>
+  <script src="/Scripts/header.menu.js"></script>
+
+
+
+
+  <script aria-hidden="true" type="application/x-lastpass" id="hiddenlpsubmitdiv" style="display: none;"></script>
+  <script>
+    try {
+      (function() {
+        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
+          var lastpass_f = document.forms[lastpass_iter];
+          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
+            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
+            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
+              continue;
+            }
+            lastpass_f.submit = function() {
+              var form = this;
+              var customEvent = document.createEvent("Event");
+              customEvent.initEvent("lpCustomEvent", true, true);
+              var d = document.getElementById("hiddenlpsubmitdiv");
+              if (d) {
+                for (var i = 0; i < document.forms.length; i++) {
+                  if (document.forms[i] == form) {
+                    if (typeof(d.innerText) != 'undefined') {
+                      d.innerText = i.toString();
+                    } else {
+                      d.textContent = i.toString();
+                    }
+                  }
+                }
+                d.dispatchEvent(customEvent);
+              }
+              form.lpsubmitorig2();
+            }
+          }
+        }
+      })()
+    } catch (e) {}
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,653 @@
+<html class="gr__kronaflyff_com">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="min-width=1240, initial-scale=1">
+  <title>KronaFlyFF</title>
+  <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico?" type="image/x-icon">
+  <link rel="stylesheet" href="/Content/vendor/Gallery-2.17.0/css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="/Content/bootstrap.min.css">
+  <link rel="stylesheet" href="/Content/bootstrap.non-responsive.css">
+  <link rel="stylesheet" href="/Content/base.css">
+  <link rel="stylesheet" href="/Content/base.buttons.css">
+  <link rel="stylesheet" href="/Content/base.fonts.css">
+  <link rel="stylesheet" href="/Content/base.forms.css">
+  <link rel="stylesheet" href="/Content/base.pagination.css">
+  <link rel="stylesheet" href="/Content/header.menu.css">
+  <link rel="stylesheet" href="/Content/main.css">
+  <link rel="stylesheet" href="/Content/main.call-to-action.css">
+  <link rel="stylesheet" href="/Content/main.signin.css">
+  <link rel="stylesheet" href="/Content/main.news.css">
+  <link rel="stylesheet" href="/Content/main.media.css">
+  <link rel="stylesheet" href="/Content/main.gallery.css">
+  <link rel="stylesheet" href="/Content/main.downloads.css">
+  <link rel="stylesheet" href="/Content/main.donate.css">
+  <link rel="stylesheet" href="/Content/main.vote.css">
+  <link rel="stylesheet" href="/Content/main.votemall.css">
+  <link rel="stylesheet" href="/Content/sidebar.search.css">
+  <link rel="stylesheet" href="/Content/sidebar.social.css">
+  <link rel="stylesheet" href="/Content/sidebar.quickstart.css">
+  <link rel="stylesheet" href="/Content/sidebar.server-status.css">
+  <link rel="stylesheet" href="/Content/sidebar.spotlight.css">
+  <link rel="stylesheet" href="/Content/footer.css">
+
+  <link rel="stylesheet" href="/Content/page.download.css">
+</head>
+
+<body data-gr-c-s-loaded="true">
+  <header class="headerMenuContainer">
+    <nav class="navbar navbar-default">
+      <div class="headerMenu">
+        <div class="navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li>
+              <a href="/Home/News">News <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media</a>
+              <ul class="dropdown-menu" style="left: 64px;">
+                <li><a href="/Home/Screenshots">Screenshots</a></li>
+                <li><a href="/Home/Videos">Videos</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/Home/Features">Features</a>
+            </li>
+            <li>
+              <a href="/Home"></a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="http://forum.KronaFlyFF.com/">Forum</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Store</a>
+              <ul class="dropdown-menu" style="left: 67px;">
+                <li><a href="/User/ItemMall">Cash Store</a></li>
+                <li><a href="/User/VoteMall">Vote Store</a></li>
+              </ul>
+            </li>
+            <li class="dropdown is-opening">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support</a>
+              <ul class="dropdown-menu" style="left: 74px; overflow: hidden; display: block; height: 1px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                <li><a href="/Home/HowTo">How-to</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="/Home/Terms">Terms of Service</a></li>
+                <li><a href="/Home/Rules">Rules</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="mainCallToAction mainCallToAction--loginRegister">
+    <div class="row mainCallToAction__callToActionContainer">
+      <a href="#" class="col-xs-6 callToAction__btn callToAction__signIn" data-toggle="modal" data-target="#modal-signIn">
+        <div class="hidden">
+          <h3>Sign In</h3>
+          <p>Manage your Account</p>
+        </div>
+      </a>
+      <a href="/Home/Register" class="col-xs-6 callToAction__btn callToAction__signUp">
+        <div class="hidden">
+          <p>Join out us Today</p>
+          <h3>Register</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-signIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form action="/User/LogIn?c=Home&amp;a=HowTo" method="post"><input name="__RequestVerificationToken" type="hidden" value="e5Bhb1Jfit0N1t1CozGVsXmLRzDCbID-ffFR7QEyX8jcZhkNi6gUP7KtvEeVwwVdnVv2ne-89MDZsQACQ-DbbYTd8X0bm2YznSb0aeTMOY41">
+            <div class="form-group">
+              <label for="account">Account</label>
+              <input class="form-control" data-val="true" data-val-length="The field Account must be a string with a minimum length of 4 and a maximum length of 16." data-val-length-max="16" data-val-length-min="4" data-val-regex="Your username can only contain letters and numbers."
+                  data-val-regex-pattern="^[A-Za-z0-9]+$" data-val-required="The Account field is required." id="account" name="account" type="text" value="" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input class="form-control" data-val="true" data-val-length="The field Password must be a string with a minimum length of 4 and a maximum length of 16." data-val-length-max="16" data-val-length-min="4" data-val-regex="Your password can only contain letters and numbers."
+                  data-val-regex-pattern="^[A-Za-z0-9]+$" data-val-required="The Password field is required." id="password" name="password" type="password" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-xs-5">
+                  <button type="submit" class="btn btn-default">Log In</button>
+                </div>
+                <div class="col-xs-7">
+                  <div class="checkbox">
+                    <input id="remember" name="remember" type="checkbox">
+                    <label for="remember">Remember me</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="/User/RequestPassword">Forgot your password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mainContainer">
+    <div class="container">
+
+
+      <style>
+        .well .nav li {
+          margin-top: 5px;
+          margin-bottom: 5px;
+        }
+
+        .well .nav ul {
+          margin-top: 15px;
+          margin-bottom: 15px;
+        }
+
+        .well .nav li ul a {
+          color: #B22222
+        }
+
+        .well .nav p {
+          color: #d0c4b1
+        }
+
+        .well .nav span {
+          color: #d0c4b1
+        }
+      </style>
+
+      <div class="row">
+        <div class="col-xs-12 main__content main__content--wide">
+          <div class="main__pageTitleContainer main__pageTitleContainer--wide">
+            <div class="row">
+              <div class="col-xs-9 pageTitle__title">How-To</div>
+              <div class="col-xs-3 text-right pageTitle__btnContainer">
+                <div class="btn pageTitle__btn" onclick="javascript: history.back();">
+                  <i class="pageTitle__btnArrow"></i> Back
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="main__pageBodyContainer">
+            <div class="well">
+              <nav class="affix-top sidebar">
+                <ul class="nav">
+                  <p style="text-align:center">Please select one of the sections below to get started.</p>
+                  <li class="is-active">
+                    <a id="getting-online" href="#" onclick="return toggleSubmenu('#submenu-getting-online')" class="btn btn-default">Getting Online</a>
+                    <!-- Add 'style="display: none;"' if the submenu should be hid (see below #submenu-news).-->
+                    <ul id="submenu-getting-online" style="display: none;">
+                      <p><b>NOTE: </b>This game requires extensive storage space to use, and the full client can take anywhere from 1GB or more on your hard drive. Please ensure your system specifications are strong enough to support the server.</p>
+                      <p><br></p>
+                      <p style="margin-left:.75in;text-indent:-.25in;">
+                        <span>
+                                        <span>
+                                            1.<span style="font:7pt 'Times New Roman';">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        To get started, head over to our <a href="Download">Downloads Page</a> and get the installer downloaded. This installer is of our own design, completely written and designed by Krona’s team. You’re free to run virus scans and anything
+                        else that will make you feel comfortable installing.
+
+                      </p>
+                      <p style=" margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            2.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        Make sure your system is up to the standard. You’ll find a “recommended” system specifications table on the download page. Compare it to your own to determine if your PC is strong enough to support Krona.
+                      </p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            3.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        Create your account on Krona by <a href="Register">Registering</a> please use all real information. This helps us, help you, in the case you lose your password or your account is stolen.
+                      </p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            4.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        At this point, run the installer and please allow it to install wherever you feel comfortable. You can install it in any spot on your computer, if you have a separated hard drive, we recommend installing it there to avoid cluttering space on your main
+                        drive.
+                      </p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            5.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        After the installer is done, allow it to run the patcher, and begin patching the remaining files. This is generally an extensive amount of files and will require a great amount of time depending on your connection.
+                      </p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            6.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        As soon as it is done patching, you should be free to launch the client and connect to the server. Use the account you created in Step #3 to access Krona’s online services.
+                      </p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            7.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        Now that you’re in-game, go ahead and explore the server. You can also take a look into your inventory and see the items that Krona gives to you from the beginning. You’re given a mount, a pet, and some other things. Use them, and explore Krona.
+                      </p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            8.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        After you get done messing around in-game, feel free to come join the discussion for bettering Krona happening on the <a href="http://forum.kronaflyff.com/">Forums</a>, please feel free to help us out with your wonderful opinions!
+                      </p>
+                      <p style=" margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            9.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        Enjoy using Krona, never stop suggesting new things, and bring all of your friends! If you ever run into any issues, you’re free to look throughout the forums for answers, as well as contact any of the team members that you find in the following section.
+                      </p>
+                      <p><br></p>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="# " onclick="return toggleSubmenu( '#submenu-support-help') " class="btn btn-default ">Getting Support/Help</a>
+                    <ul id="submenu-support-help " style="display: none; ">
+                      <p>We don’t ever want you to feel like you can’t reach out to someone. If you’re ever in need of assistance, there’s plenty of ways to get some help around here. Now keep in mind, you can always turn to a team member, but sometimes,
+                        the community can even be more help!</p>
+                      <p><br></p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            1.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        Team Members
+                      </p>
+                      <p style="margin-left:1in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        You can find an update-to-date list of the current team members in this section, these names are people you can trust with any information about Krona. If you have any direct in-game questions, you’re free to ask them, as well as ask them any questions
+                        about the path Krona is taking or anything else involving Krona’s services. You will almost always find accurate information coming from the team members on Krona.
+                      </p>
+                      <p style="margin-left:1.5in;text-indent:-1.5in; ">
+                        <span>
+                                        <span>
+                                            <span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>                        I.
+                        <span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        CEO – Pheon1x
+                      </p>
+                      <p style="margin-left:1.5in;text-indent:-1.5in; ">
+                        <span>
+                                        <span>
+                                            <span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>                        II.
+                        <span style="font:7pt 'Times New Roman'; ">&nbsp; &nbsp; &nbsp; </span>
+                        </span>
+                        </span>
+                        Community Management&nbsp;– Daisuke
+                      </p>
+                      <p style="margin-left:1.5in;text-indent:-1.5in; ">
+                        <span>
+                                        <span>
+                                            <span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>                        III.
+                        <span style="font:7pt 'Times New Roman'; ">&nbsp; &nbsp; &nbsp;</span>
+                        </span>
+                        </span>
+                        Lead Wiki&nbsp;– Ajax
+                      </p>
+                      <p style="margin-left:1.5in;text-indent:-1.5in; ">
+                        <span>
+                                        <span>
+                                            <span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>                        IV.
+                        <span style="font:7pt 'Times New Roman'; ">&nbsp; &nbsp; &nbsp;</span>
+                        </span>
+                        </span>
+                        Forum Moderator&nbsp;– Ravensdir
+                      </p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            2.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        The Kronian Society
+                      </p>
+                      <p style="margin-left:1in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        A great asset to Krona is the wonderful community we’ve got here. They are almost all willing to help and explain things you do not understand as a new player. Krona has undergone some standardized changes throughout the months of development, but understanding
+                        the basics is still pretty simple… if you’re confused, ask someone for help. If you ask them for help, they will help you! If you hear something a little suspicious though, please ask any of the team members listed above for clarification!
+                      </p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            3.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        The Discussion Boards
+                      </p>
+                      <p style="margin-left:1in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        In a general sense, we have technical support destinations located throughout our discussion boards. A large part of these get answered by both the community and the team members. You will find that almost any question posted on these boards is answered
+                        swiftly by someone whom has experienced a similar issue and received help. Again, if you have any additional questions, you’re more than welcome to contact anyone you feel will give you accurate support help.
+                      </p>
+                      <p><br></p>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="# " onclick="return toggleSubmenu( '#submenu-securing-account') " class="btn btn-default ">Securing Your Account</a>
+                    <ul id="submenu-securing-account " style="display: none; ">
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            1.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        <b>Simple Naming Advice</b>
+                      </p>
+                      <p style="margin-left:1in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        One of the largest issues modern MMO players experience is the naming crisis. This is basically the occurrence of using the same or similar names on every single server/service they use, which can lead to previous server’s corrupt owners/team members
+                        having access to your old passwords. As a general note, it is not advised that you use the same naming behavior on each service you use. Try something new on Krona, see what you can think of.
+                      </p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            2.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        <b>Creating a Secure Password</b>
+                      </p>
+                      <p style="margin-left:1in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        Another one of the issues that players encounter is a lack of password strength. You will want to note that passwords are the <b>only</b> defense you’ve got from someone else gaining access to the account that you’ve put good time
+                        and money into. If you want to prevent someone from gaining access, please be smart with the choosing of your password. As a general note, your password should contain all three of the following things: numbers, letters, uppercase
+                        and lowercase characters.
+                      </p>
+                      <p style="margin-left:1in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            b.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        Tip: If you feel your password is too complex to remember, create a text file under a secure name, in a secure folder, and store your passwords.
+                      </p>
+                      <p style="margin-left:1in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            c.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        Tip: Change your password every 2-3 weeks to prevent having the same one. This will ensure if someone has access to your account, it isn’t for long.
+                      </p>
+                      <p style="margin-left:1in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            d.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        Tip: Team members will NEVER ask you to give them your password for literally any reason whatsoever.
+                      </p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            3.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        <b>Sharing Policies</b>
+                      </p>
+                      <p style="margin-left:1in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        You are liable for your own account, and your assets. If you give your account information to someone, then you are giving them complete control of your assets. This is your decision, and will not be supported by the team in the case of theft of any items
+                        or services on Krona, please be sure to keep your assets in only the hands of your most trusted friends. Again, Krona will not reimburse any items that are lost from willingly giving your information away for any reason.
+                      </p>
+                      <p style="margin-left:.75in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            4.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        <b>Inputting a Valid Email</b>
+                      </p>
+                      <p style="margin-left:1in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        One of the easiest things you can do to secure your account is provide a valid e-mail during the registration process. If you successfully do this, we can verify your identity by sending emails. This speeds up the process ten-fold and allows us to help
+                        you that much more quick. This is a vital thing to do to protect your account!
+                      </p>
+                      <p><br></p>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="# " onclick="return toggleSubmenu( '#submenu-howto-donate') " class="btn btn-default ">How to Donate</a>
+                    <ul id="submenu-howto-donate " style="display: none; ">
+                      <p style="margin-left:.5in; ">Krona is run off support, plain and simple; both monetary and helpfulness! We thrive off the help of our faithful supporters, and as such, we provide a system of reward for those that do donate to us. You can find the information
+                        needed in the section below.</p>
+                      <p style="margin-left:.5in; "><br></p>
+                      <p style="margin-left:1.25in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            1.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        <b>Where Do Donations Go</b>
+                      </p>
+                      <p style="margin-left:1.5in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        A players donations will always go towards bettering the server. We are constantly looking at finding new, stable, enterprise-level hosting platforms to better the in-game speed of Krona. Along with that, we’re constantly working on finding and funding
+                        new projects, such things you’ll see have come along are things like this website. Donations are used to better Krona, and to give a better experience to everyone involved.
+                      </p>
+                      <p style="margin-left:1.25in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            2.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        <b>Refunds</b>
+                      </p>
+                      <p style="margin-left:1.5in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        We do not cater to refunds here, so please remain diligent when donating. Your donation will go through the paypal system in such a way that refunding your payment will result in a large dispute process that will freeze the money in question. Should this
+                        occur: we will first ban all of your access to Krona’s services; alongside that, we will also terminate any contact you’ve got to Krona, this includes the discussion boards. You will never be welcomed back.
+                      </p>
+                      <p style="margin-left:1.25in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            3.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        <b>How To Use Your Crowns</b>
+                      </p>
+                      <p style="margin-left:1.5in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        Spend these wisely! There a multitude of ways to use your crowns. You can sell them in-game to players, since there is always a steady economy of crowns in-game. Alongside that, the item mall is open for business! You can find a multitude of items and
+                        fashions to help you get started on Krona in the Item Mall. Enjoy shopping!
+                      </p>
+                      <p><br></p>
+                    </ul>
+                  </li>
+                  <li>
+                    <a href="# " onclick="return toggleSubmenu( '#submenu-howto-vote') " class="btn btn-default ">How to Vote</a>
+                    <ul id="submenu-howto-vote " style="display: none; ">
+                      <p style="margin-left:.5in; ">Another great thing you can do to support Krona is vote for us on the various voting sites. We’ve got a great API system running with Gtop, which allows us to track the votes as well as determine based on IPs the status of your voting
+                        period (how long you’ve got till you can vote again). It’s very simple to vote.</p>
+                      <p style="margin-left:.5in; "><br></p>
+                      <p style="margin-left:1.25in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            1.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        <b>What Does Voting Do</b>
+                      </p>
+                      <p style="margin-left:1.5in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        We do our very best to stay competitive with the servers around us. They always promise something new, something exciting, but provide the same basic service as every other server before them. On Krona, we tried to do something new, offer something that
+                        hasn’t ever been seen before. If you vote, it means you support us with this conquest, it means you support us with the mission we have here. It shows you support us, and it inspires others to support us too.
+                      </p>
+                      <p style="margin-left:1.25in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            2.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        <b>What Can I Spend My Voting Points On</b>
+                      </p>
+                      <p style="margin-left:1.5in;text-indent:-.25in; ">
+                        <span>
+                                        <span>
+                                            a.<span style="font:7pt 'Times New Roman'; ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
+                        </span>
+                        </span>
+                        As of now, there’s plenty of variety that can be chosen from. We’ve got an entire section of the Item Mall exclusive to voting materials, along with an ultra-exclusive stated set waiting for those that wish to vote as frequently as possible. Keep in mind,
+                        this is something that we consider vitally important to the server. If you’ve got items of things for the voting mall, put those thoughts into the discussion boards! We've implemented an experience scroll into the Voting Mall too
+                        that doubles your in-game experience. Grab it to help with leveling!
+                      </p>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>&gt;
+
+
+    </div>
+  </div>
+  <footer class="footerContainer ">
+    <div class="container ">
+      <div class="row footer__content ">
+        <div class="col-xs-6 ">
+          <dl class="dl-horizontal ">
+            <dt class="footer__DMCA ">
+                            <div></div>
+                        </dt>
+            <dd class="footer__copyright ">
+              <br>
+            </dd>
+          </dl>
+        </div>
+        <div class="col-xs-6 ">
+          <ul class="list-inline footer__quickLinks ">
+            <li><a href="/Home/Index ">Home</a></li>
+            <li><a href="/Home/News ">News</a></li>
+            <li><a href="/Home/Videos ">Media</a></li>
+            <li><a href="http://forum.KronaFlyFF.com ">Forum</a></li>
+            <li><a href="http://forum.KronaFlyFF.com/index.php?/forum/18-support/ ">Support</a></li>
+            <li><a href="http://forum.KronaFlyFF.com/index.php?/topic/2-kingdoms-tos/ ">Rules</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="designBy ">
+    <a href="http://www.elitepvpers.com/ ">ELITEPVPERS</a>
+  </div>
+
+  <script src="/Scripts/jquery-2.2.0.min.js "></script>
+  <script src="/Scripts/jquery-ui.min.js "></script>
+  <script src="/Scripts/bootstrap.min.js "></script>
+  <script src="/Scripts/header.menu.js "></script>
+
+
+  <script src="/Scripts/app.js "></script>
+
+
+
+  <script aria-hidden="true " type="application/x-lastpass " id="hiddenlpsubmitdiv " style="display: none; "></script>
+  <script>
+    try {
+      (function() {
+        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
+          var lastpass_f = document.forms[lastpass_iter];
+          if (typeof(lastpass_f.lpsubmitorig2) == "undefined ") {
+            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
+            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
+              continue;
+            }
+            lastpass_f.submit = function() {
+              var form = this;
+              var customEvent = document.createEvent("Event ");
+              customEvent.initEvent("lpCustomEvent ", true, true);
+              var d = document.getElementById("hiddenlpsubmitdiv ");
+              if (d) {
+                for (var i = 0; i < document.forms.length; i++) {
+                  if (document.forms[i] == form) {
+                    if (typeof(d.innerText) != 'undefined') {
+                      d.innerText = i.toString();
+                    } else {
+                      d.textContent = i.toString();
+                    }
+                  }
+                }
+                d.dispatchEvent(customEvent);
+              }
+              form.lpsubmitorig2();
+            }
+          }
+        }
+      })()
+    } catch (e) {}
+  </script>
+</body>
+
+</html>

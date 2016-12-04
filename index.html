@@ -1,0 +1,425 @@
+<html class="gr__kronaflyff_com">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="min-width=1240, initial-scale=1">
+  <title>KronaFlyFF</title>
+  <link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico?" type="image/x-icon">
+  <link rel="stylesheet" href="/Content/vendor/Gallery-2.17.0/css/blueimp-gallery.min.css">
+  <link rel="stylesheet" href="/Content/bootstrap.min.css">
+  <link rel="stylesheet" href="/Content/bootstrap.non-responsive.css">
+  <link rel="stylesheet" href="/Content/base.css">
+  <link rel="stylesheet" href="/Content/base.buttons.css">
+  <link rel="stylesheet" href="/Content/base.fonts.css">
+  <link rel="stylesheet" href="/Content/base.forms.css">
+  <link rel="stylesheet" href="/Content/base.pagination.css">
+  <link rel="stylesheet" href="/Content/header.menu.css">
+  <link rel="stylesheet" href="/Content/main.css">
+  <link rel="stylesheet" href="/Content/main.call-to-action.css">
+  <link rel="stylesheet" href="/Content/main.signin.css">
+  <link rel="stylesheet" href="/Content/main.news.css">
+  <link rel="stylesheet" href="/Content/main.media.css">
+  <link rel="stylesheet" href="/Content/main.gallery.css">
+  <link rel="stylesheet" href="/Content/main.downloads.css">
+  <link rel="stylesheet" href="/Content/main.donate.css">
+  <link rel="stylesheet" href="/Content/main.vote.css">
+  <link rel="stylesheet" href="/Content/main.votemall.css">
+  <link rel="stylesheet" href="/Content/sidebar.search.css">
+  <link rel="stylesheet" href="/Content/sidebar.social.css">
+  <link rel="stylesheet" href="/Content/sidebar.quickstart.css">
+  <link rel="stylesheet" href="/Content/sidebar.server-status.css">
+  <link rel="stylesheet" href="/Content/sidebar.spotlight.css">
+  <link rel="stylesheet" href="/Content/footer.css">
+
+  <link rel="stylesheet" href="/Content/page.download.css">
+</head>
+
+<body data-gr-c-s-loaded="true">
+  <header class="headerMenuContainer">
+    <nav class="navbar navbar-default">
+      <div class="headerMenu">
+        <div class="navbar-collapse">
+          <ul class="nav navbar-nav navbar-left">
+            <li>
+              <a href="/Home/News">News <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Media</a>
+              <ul class="dropdown-menu" style="left: 64px;">
+                <li><a href="/Home/Screenshots">Screenshots</a></li>
+                <li><a href="/Home/Videos">Videos</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="/Home/Features">Features</a>
+            </li>
+            <li>
+              <a href="/Home"></a>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="http://forum.KronaFlyFF.com/">Forum</a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Store</a>
+              <ul class="dropdown-menu" style="left: 67px; display: none; height: 86px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;">
+                <li><a href="/User/ItemMall">Cash Store</a></li>
+                <li><a href="/User/VoteMall">Vote Store</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Support</a>
+              <ul class="dropdown-menu" style="left: 74px; display: none;">
+                <li><a href="/Home/HowTo">How-to</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="/Home/Terms">Terms of Service</a></li>
+                <li><a href="/Home/Rules">Rules</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="mainCallToAction mainCallToAction--loginRegister">
+    <div class="row mainCallToAction__callToActionContainer">
+      <a href="#" class="col-xs-6 callToAction__btn callToAction__signIn" data-toggle="modal" data-target="#modal-signIn">
+        <div class="hidden">
+          <h3>Sign In</h3>
+          <p>Manage your Account</p>
+        </div>
+      </a>
+      <a href="/Home/Register" class="col-xs-6 callToAction__btn callToAction__signUp">
+        <div class="hidden">
+          <p>Join out us Today</p>
+          <h3>Register</h3>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal-signIn" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <form action="/User/LogIn?c=Home&amp;a=Index" method="post"><input name="__RequestVerificationToken" type="hidden" value="fl_vkPUnW2t1alx3Wzm39Jv2aEWBQlY1q4L1jq0xUg3jZLaexhKC7Zai_1ZjDATSPLAo5K0V_gMOs0WxYdvqDa1KqBduuDj17iUKNOCzAEk1">
+            <div class="form-group">
+              <label for="account">Account</label>
+              <input class="form-control" data-val="true" data-val-length="The field Account must be a string with a minimum length of 4 and a maximum length of 16." data-val-length-max="16" data-val-length-min="4" data-val-regex="Your username can only contain letters and numbers."
+                  data-val-regex-pattern="^[A-Za-z0-9]+$" data-val-required="The Account field is required." id="account" name="account" type="text" value="" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input class="form-control" data-val="true" data-val-length="The field Password must be a string with a minimum length of 4 and a maximum length of 16." data-val-length-max="16" data-val-length-min="4" data-val-regex="Your password can only contain letters and numbers."
+                  data-val-regex-pattern="^[A-Za-z0-9]+$" data-val-required="The Password field is required." id="password" name="password" type="password" autocomplete="off" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAAXNSR0IArs4c6QAAAbNJREFUWAntV8FqwkAQnaymUkpChB7tKSfxWCie/Yb+gbdeCqGf0YsQ+hU95QNyDoWCF/HkqdeiIaEUqyZ1ArvodrOHxanQOiCzO28y781skKwFW3scPV1/febP69XqarNeNTB2KGs07U3Ttt/Ozp3bh/u7V7muheQf6ftLUWyYDB5yz1ijuPAub2QRDDunJsdGkAO55KYYjl0OUu1VXOzQZ64Tr+IiPXedGI79bQHdbheCIAD0dUY6gV6vB67rAvo6IxVgWVbFy71KBKkAFaEc2xPQarXA931ot9tyHphiPwpJgSbfe54Hw+EQHMfZ/msVEEURjMfjCjbFeG2dFxPo9/sVOSYzxmAwGIjnTDFRQLMQAjQ5pJAQkCQJ5HlekeERxHEsiE0xUUCzEO9AmqYQhiF0Oh2Yz+ewWCzEY6aYKKBZCAGYs1wuYTabKdNNMWWxnaA4gp3Yry5JBZRlWTXDvaozUgGTyQSyLAP0dbb3DtQlmcan0yngT2ekE9ARc+z4AvC7nauh9iouhpcGamJeX8XF8MaClwaeROWRA7nk+tUnyzGvZrKg0/40gdME/t8EvgG0/NOS6v9NHQAAAABJRU5ErkJggg==&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;">
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-xs-5">
+                  <button type="submit" class="btn btn-default">Log In</button>
+                </div>
+                <div class="col-xs-7">
+                  <div class="checkbox">
+                    <input id="remember" name="remember" type="checkbox">
+                    <label for="remember">Remember me</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <a href="/User/RequestPassword">Forgot your password?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mainContainer">
+    <div class="container">
+
+
+      <div class="row">
+        <div class="col-xs-8 main__content">
+          <div class="main__section main__heroContainer textShadow-251f1d">
+            <h1>
+                        <span class="hero__titleWelcome">Welcome</span>
+                        <span class="hero__titleTo">to</span>
+                        <span class="hero__titleName">Krona!</span>
+                    </h1>
+            <p>Successor to Eclipse Flyff, we offer an experience unlike any other. You’ve come to Krona for one reason, and one reason alone: the thrill of being on the best server imaginable. Active, fulfilling updates. Autonomous systems. Unique fashions/systems.
+              What are you waiting for?</p>
+          </div>
+          <div class="main__heroSlider"></div>
+
+          <div class="main__section main__newsContainer">
+            <div class="main__news main__news--featured">
+              <div class="dl-horizontal">
+                <dt class="news__media">
+                        <div class="mediaOverlay--featured news__mediaOverlay"></div>
+                        <img class="news__mediaImage" src="/Content/Public/News/1502041302321b7b4b468c3d1d.jpg" alt="">
+                    </dt>
+                <dd class="news__content">
+                  <h4 class="news__title textShadow-251f1d">
+                            <a href="#">Kingdom's Shop Vendor Update</a>
+                        </h4>
+                  <div class="news__meta">May 07, 2016 at 01:39</div>
+                  <div class="news__body">Introducing Shop Vendors, a new dungeon Contaminated Trails, and over 40 new fashion sets!</div>
+                  <a href="/Home/News?id=1012" class="btn btn-primary news__readMore">Read More</a>
+                </dd>
+              </div>
+            </div>
+            <div class="main__news">
+              <div class="dl-horizontal">
+                <dt class="news__media">
+                        <div class="mediaOverlay--featured news__mediaOverlay"></div>
+                        <img class="news__mediaImage" src="/Content/Public/News/15020413017e6f81c5149bd87f.jpg" alt="">
+                    </dt>
+                <dd class="news__content">
+                  <h4 class="news__title textShadow-251f1d">
+                            <a href="#">Kingdom's Aura Update </a>
+                        </h4>
+                  <div class="news__meta">April 22, 2016 at 19:27</div>
+                  <div class="news__body">Custom Aura system, Kalgas redesign and other fixes !</div>
+                  <a href="/Home/News?id=11" class="btn btn-primary news__readMore">Read More</a>
+                </dd>
+              </div>
+            </div>
+            <div class="main__news">
+              <div class="dl-horizontal">
+                <dt class="news__media">
+                        <div class="mediaOverlay--featured news__mediaOverlay"></div>
+                        <img class="news__mediaImage" src="/Content/Public/News/2014-01-04_407631.jpg" alt="">
+                    </dt>
+                <dd class="news__content">
+                  <h4 class="news__title textShadow-251f1d">
+                            <a href="#">Kingdom's Catacombic Update!</a>
+                        </h4>
+                  <div class="news__meta">April 08, 2016 at 20:30</div>
+                  <div class="news__body">Pet transmutation, balancing changes, a Catacombs complete redesign and more !</div>
+                  <a href="/Home/News?id=9" class="btn btn-primary news__readMore">Read More</a>
+                </dd>
+              </div>
+            </div>
+            <div class="main__news">
+              <div class="dl-horizontal">
+                <dt class="news__media">
+                        <div class="mediaOverlay--featured news__mediaOverlay"></div>
+                        <img class="news__mediaImage" src="/Content/Public/News/1401041421e8d7a818f7f62ec5.jpg" alt="">
+                    </dt>
+                <dd class="news__content">
+                  <h4 class="news__title textShadow-251f1d">
+                            <a href="#">Kingdom's Easter Update</a>
+                        </h4>
+                  <div class="news__meta">March 25, 2016 at 18:06</div>
+                  <div class="news__body">Added in support for level 105 and under gear, new item mall fashions, easter event. Get involved!</div>
+                  <a href="/Home/News?id=8" class="btn btn-primary news__readMore">Read More</a>
+                </dd>
+              </div>
+            </div>
+            <div class="main__browseMore">
+              <a href="/Home/News" class="btn btn-primary btn-xs browseMore__btn">Browse old news</a>
+            </div>
+          </div>
+          <div class="main__section main__featuredMediaContainer">
+            <div class="row">
+
+              <div class="col-xs-6 main__featuredMedia main__featuredMedia--video">
+                <div class="featuredMedia__head">
+                  <h3>Newest Video</h3>
+                  <a href="/Home/Videos">
+                    <small class="featuredMedia__browseMore">Browse all</small>
+                  </a>
+                </div>
+                <div class="featuredMedia__content">
+                </div>
+              </div>
+
+              <div class="col-xs-6 main__featuredMedia main__featuredMedia--screenshots">
+                <div class="featuredMedia__head">
+                  <h3>Screenshots</h3>
+                  <a href="/Home/Screenshots">
+                    <small class="featuredMedia__browseMore">Browse all</small>
+                  </a>
+                </div>
+                <div class="featuredMedia__content" id="galleryImageContainer">
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4 main__sidebar">
+          <form action="" method="POST" class="sidebar__searchContainer">
+            <input type="text" placeholder="Type your search..." class="sidebar__search">
+            <i class="icon icon--"></i>
+          </form>
+          <div class="sidebar__socialContainer">
+            <div class="row">
+              <div class="col-xs-6 sidebar__socialItem sidebar__socialItem--fb">
+                <a href="https://www.facebook.com/KronaFlyFF/">
+                  <div class="social__icon"></div>
+                </a>
+                <div class="social__info">
+                  1 445<br>
+                  <small>Likes</small>
+                </div>
+              </div>
+              <div class="col-xs-6 sidebar__socialItem sidebar__socialItem--yt">
+                <a href="https://www.youtube.com/channel/UC9YGI6HbAhxZJv_TRxm6dzQ">
+                  <div class="social__icon"></div>
+                </a>
+                <div class="social__info">
+                  117<br>
+                  <small>Subscribers</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="sidebar__quickStartContainer">
+            <div class="sidebar__downloadBtn">
+              <a href="/Home/Download" class="downloadBtn">
+                <small>Game client (v. 1.0.0)</small>
+              </a>
+            </div>
+            <div class="sidebar__quickStart">
+              <ul>
+                <li><a href="/Home/HowTo#getting-online">Connection Guide</a></li>
+                <li><a href="/Home/FAQ">Frequently asked questions</a></li>
+                <li><a href="#">Ask for assistance</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="sidebar__serverInfoContainer is-online">
+            <div class="serverInfo__stateBar"></div>
+            <div class="sidebar__serverInfo">
+              <div class="serverInfo__stateIcon">
+                <div class="serverInfo__stateIconGlow"></div>
+              </div>
+              <div class="serverInfo__stateContainer">
+                <span>Server is currently</span>
+                <span class="serverInfo__stateText">online</span>
+              </div>
+              <div class="serverInfo__timeContainer">
+                <span class="serverInfo__caption">Server time</span>
+                <time class="serverInfo__time js-serverTime">20:39:14</time>
+              </div>
+            </div>
+          </div>
+
+
+          <script>
+            var now = new Date('12/4/2016 8:34:19 PM');
+
+            var getCurrentTime = function() {
+              now.setSeconds(now.getSeconds() + 1);
+              var currentTime = [
+                ('00' + now.getHours()).slice(-2),
+                ('00' + now.getMinutes()).slice(-2),
+                ('00' + now.getSeconds()).slice(-2),
+              ];
+              return currentTime.join(':');
+            }
+
+            var updateCurrentTime = function() {
+              document.querySelector('.js-serverTime').innerHTML = getCurrentTime();
+            }
+
+            setInterval(updateCurrentTime, 1000);
+          </script>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+  <footer class="footerContainer">
+    <div class="container">
+      <div class="row footer__content">
+        <div class="col-xs-6">
+          <dl class="dl-horizontal">
+            <dt class="footer__DMCA">
+                            <div></div>
+                        </dt>
+            <dd class="footer__copyright">
+              <br>
+            </dd>
+          </dl>
+        </div>
+        <div class="col-xs-6">
+          <ul class="list-inline footer__quickLinks">
+            <li><a href="/Home/Index">Home</a></li>
+            <li><a href="/Home/News">News</a></li>
+            <li><a href="/Home/Videos">Media</a></li>
+            <li><a href="http://forum.KronaFlyFF.com">Forum</a></li>
+            <li><a href="http://forum.KronaFlyFF.com/index.php?/forum/18-support/">Support</a></li>
+            <li><a href="http://forum.KronaFlyFF.com/index.php?/topic/2-kingdoms-tos/">Rules</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="designBy">
+    <a href="http://www.elitepvpers.com/">ELITEPVPERS</a>
+  </div>
+
+  <script src="/Scripts/jquery-2.2.0.min.js"></script>
+  <script src="/Scripts/jquery-ui.min.js"></script>
+  <script src="/Scripts/bootstrap.min.js"></script>
+  <script src="/Scripts/header.menu.js"></script>
+
+
+  <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <ol class="indicator"></ol>
+  </div>
+
+  <script src="/Content/vendor/Gallery-2.17.0/js/blueimp-gallery.min.js"></script>
+  <script src="/Content/main.gallery.image.js"></script>
+
+
+
+  <script aria-hidden="true" type="application/x-lastpass" id="hiddenlpsubmitdiv" style="display: none;"></script>
+  <script>
+    try {
+      (function() {
+        for (var lastpass_iter = 0; lastpass_iter < document.forms.length; lastpass_iter++) {
+          var lastpass_f = document.forms[lastpass_iter];
+          if (typeof(lastpass_f.lpsubmitorig2) == "undefined") {
+            lastpass_f.lpsubmitorig2 = lastpass_f.submit;
+            if (typeof(lastpass_f.lpsubmitorig2) == 'object') {
+              continue;
+            }
+            lastpass_f.submit = function() {
+              var form = this;
+              var customEvent = document.createEvent("Event");
+              customEvent.initEvent("lpCustomEvent", true, true);
+              var d = document.getElementById("hiddenlpsubmitdiv");
+              if (d) {
+                for (var i = 0; i < document.forms.length; i++) {
+                  if (document.forms[i] == form) {
+                    if (typeof(d.innerText) != 'undefined') {
+                      d.innerText = i.toString();
+                    } else {
+                      d.textContent = i.toString();
+                    }
+                  }
+                }
+                d.dispatchEvent(customEvent);
+              }
+              form.lpsubmitorig2();
+            }
+          }
+        }
+      })()
+    } catch (e) {}
+  </script>
+</body>
+
+</html>
